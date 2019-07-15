@@ -129,10 +129,19 @@
   justify-content: space-around;
 }
 
+.homeButtons {
+  border-right: 1px dashed gray;
+}
+
+.awayButtons {
+  padding-left: 60px;
+}
+
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+  width: 170px;
 }
