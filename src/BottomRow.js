@@ -23,16 +23,16 @@ const BottomRow = () => {
       </div>
       <section className="quarters">
         <h4>Set Quarter</h4>
-        <button onClick={() => setQuarter(1)} className="firstQuarter">
+        <button onClick={() => setQuarter(1)} className="quarterButton">
           1
         </button>
-        <button onClick={() => setQuarter(2)} className="secondQuarter">
+        <button onClick={() => setQuarter(2)} className="quarterButton">
           2
         </button>
-        <button onClick={() => setQuarter(3)} className="thirdQuarter">
+        <button onClick={() => setQuarter(3)} className="quarterButton">
           3
         </button>
-        <button onClick={() => setQuarter(4)} className="fourthQuarter">
+        <button onClick={() => setQuarter(4)} className="quarterButton">
           4
         </button>
       </section>

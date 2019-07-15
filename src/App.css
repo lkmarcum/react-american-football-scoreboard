@@ -80,6 +80,22 @@
   height: 20rem;
 }
 
+.quarters {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.quarterButton {
+  margin: 5px;
+  padding: 5px;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: rgb(248, 33, 33);
+}
+
 .down,
 .toGo,
 .ballOn,
