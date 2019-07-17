@@ -80,6 +80,22 @@
   height: 20rem;
 }
 
+.quarters {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.quarterButton {
+  margin: 5px;
+  padding: 5px;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: rgb(248, 33, 33);
+}
+
 .down,
 .toGo,
 .ballOn,
@@ -113,10 +129,19 @@
   justify-content: space-around;
 }
 
+.homeButtons {
+  border-right: 1px dashed gray;
+}
+
+.awayButtons {
+  padding-left: 60px;
+}
+
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
 .awayButtons__fieldGoal {
   margin: 1rem;
   border-radius: 4px;
+  width: 170px;
 }
